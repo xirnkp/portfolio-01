@@ -829,3 +829,112 @@ a.label-medium:hover {
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+  /* Topbar and logo */
+  .topbar {
+    padding: 10px 15px;
+    justify-content: space-between;
+  }
+  
+  .logo-text {
+    font-size: 1.2rem;
+  }
+
+  .theme-btn {
+    font-size: 24px;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 20px;
+  }
+  
+  .hero-banner {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .btn-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .chip {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  /* Projects Section */
+  .project-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    margin: 10px 0;
+  }
+
+  /* About section */
+  .about-card {
+    padding: 20px;
+  }
+
+  /* Primary tabs */
+  .primary-tabs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Contact info */
+  .contact-info {
+    text-align: center;
+  }
+  
+  .contact-info-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-info-item {
+    margin-bottom: 20px;
+  }
+
+  /* Resume Section */
+  .resume-tab {
+    padding: 20px;
+  }
+
+  .resume-card {
+    margin: 15px 0;
+  }
+
+  /* Adjusting icons and spacing */
+  .label-medium {
+    font-size: 0.9rem;
+  }
+
+  .resume-bottom-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .resume-bottom-item {
+    width: 100%;
+    justify-content: center;
+  }
+}
